@@ -36,7 +36,7 @@ dart.onmousedown = function(event) {
 };
 
 function animate(x, y, startX, startY) {
-    dart.style.backgroundColor = `#009900`;
+    dart.style.backgroundColor = `red`;
     let dx = (startX - x);
     let dy = (startY - y);
     let tg = dy / dx;

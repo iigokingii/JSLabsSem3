@@ -113,7 +113,7 @@ class Product{
     p.style.fontSize = "20px";
     p.display="inline";
     p.style.fontStyle="italic";
-    div.append(p);//в конец
+    div.append(p);
 
     let p2 = p.cloneNode(true); 
     p2.innerHTML = this.price + " BYN";
@@ -183,6 +183,8 @@ let ButtonForCart = new Button(150,75,"Cart","blue");
 document.body.prepend(ButtonForCart.addButton());
 let newbutton = new Button(200,150,"New cart ","red");
 document.body.prepend(newbutton.addButton());
+let neBut = new Button(300,150,"CART FOR TASK","red");
+document.body.prepend(neBut.addButton());
 let first = new Product(1, 10000,'Lenovo', "images.jpg", 'white');
 first.Add();
 
